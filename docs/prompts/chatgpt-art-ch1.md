@@ -2,7 +2,7 @@
 
 共 3 張圖。每張圖都是**先貼「共同風格」，再貼該張圖的指令**，一張一張生。
 
-做好的圖上傳到遊戲 repo `daimg49-gif/emotion-detective` 的 `assets/raw/ch1/`，檔名照下表。Claude 會負責去背、裁切、縮放、調色後放進遊戲。
+做好的圖上傳到遊戲 repo `peitt1940-creator/emotion-detective` 的 `assets/raw/ch1/`，檔名照下表。Claude 會負責去背、裁切、縮放、調色後放進遊戲。
 
 | # | 檔名 | 用在哪 | 尺寸 |
 |---|---|---|---|

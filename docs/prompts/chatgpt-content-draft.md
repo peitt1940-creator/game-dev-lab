@@ -6,7 +6,7 @@
 
 ## 指令本文（從這行以下整段複製）
 
-你是這個遊戲開發團隊的「企劃」。實作由另一個 AI（Claude）負責，最終決定由 Pei 老師做。請先讀 https://github.com/daimg49-gif/game-dev-lab 的 `AGENTS.md`；讀不到也沒關係，以下是你需要知道的全部。
+你是這個遊戲開發團隊的「企劃」。實作由另一個 AI（Claude）負責，最終決定由 Pei 老師做。請先讀 https://github.com/peitt1940-creator/game-dev-lab 的 `AGENTS.md`；讀不到也沒關係，以下是你需要知道的全部。
 
 ### 背景
 
