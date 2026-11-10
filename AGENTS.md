@@ -76,3 +76,15 @@ GitHub 僅用於遊戲開發、教學輔助程式及其必要的程式碼、美�
 - 每個遊戲維護一份回歸測試清單，每次修改後逐項確認。
 - 每個新遊戲開新 repo，帳號 `peitt1940-creator`，避免蓋掉已完成的遊戲。
 - 給學生的文字：語氣帶挑戰性、鼓勵自己思考；選項不要寫成一眼就看得出正確答案的道德題。
+
+## 部署流程（GitHub Pages，全自動）
+
+Pei 不需要手動開 Pages。新遊戲一律照下面做：
+
+1. 建公開 repo（帳號 `peitt1940-creator`），程式推到 `main`。
+2. 把 `main` 推成 `gh-pages` 分支：`git push origin main:refs/heads/gh-pages`。repo 一出現 `gh-pages` 分支，GitHub 就會自動開啟 Pages，不用進設定頁、不用金鑰。
+3. 網址是 `https://peitt1940-creator.github.io/<repo 名稱>/`，交給 Pei 驗收（AI 端可能連不到 github.io，需請 Pei 打開確認）。
+4. 之後每次修改，`main` 和 `gh-pages` 兩個分支都要推，網址不變。
+5. 更新 `games/README.md` 索引。
+
+只有 Pei 明確說「這個專案要使用 Firebase」才改用 Firebase。
